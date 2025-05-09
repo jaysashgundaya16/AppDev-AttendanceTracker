@@ -30,7 +30,7 @@ const EditProfile: React.FC = () => {
           if (sessionError || !session || !session.session) {
             setAlertMessage('You must be logged in to access this page.');
             setShowAlert(true);
-            history.push('/appDev-AttendanceTracker/login'); // Redirect to login if no session is found
+            history.push('/appdev-attendancetracker/login'); // Redirect to login if no session is found
             return;
           }
       
@@ -161,7 +161,7 @@ const EditProfile: React.FC = () => {
       
         setAlertMessage('Account updated successfully!');
         setShowAlert(true);
-        history.push('/appDev-AttendanceTracker/app');
+        history.push('/appdev-attendancetracker/app');
       };
       
   
@@ -169,7 +169,7 @@ const EditProfile: React.FC = () => {
       <IonPage>
         <IonHeader>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/appDev-AttendanceTracker/app" />
+            <IonBackButton defaultHref="/appdev-attendancetracker/app" />
           </IonButtons>
         </IonHeader>
         <IonContent className="ion-padding">

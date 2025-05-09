@@ -53,12 +53,12 @@ const Login: React.FC = () => {
 
     setShowToast(true); 
     setTimeout(() => {
-      navigation.push('/appDev-AttendanceTracker/app', 'forward', 'replace');
+      navigation.push('/appdev-attendancetracker/app', 'forward', 'replace');
     }, 300);
   }
 
   const goToRegister = () => {
-    navigation.push('/appDev-AttendanceTracker/register', 'forward', 'replace'); // Navigate to the Register page
+    navigation.push('/appdev-attendancetracker/register', 'forward', 'replace'); // Navigate to the Register page
   }
   return (
     <IonPage>

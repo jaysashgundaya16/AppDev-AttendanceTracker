@@ -25,9 +25,9 @@ import Search from './home-tabs/Search';
   const Home: React.FC = () => {
 
     const tabs = [
-      {name:'Feed', tab:'feed',url: '/appDev-AttendanceTracker/app/home/feed', icon: bookOutline},
-      {name:'Search', tab:'search', url: '/appDev-AttendanceTracker/app/home/search', icon: search},
-      {name:'Favorites',tab:'favorites', url: '/appDev-AttendanceTracker/app/home/favorites', icon: star},
+      {name:'Feed', tab:'feed',url: '/appdev-attendancetracker/app/home/feed', icon: bookOutline},
+      {name:'Search', tab:'search', url: '/appdev-attendancetracker/app/home/search', icon: search},
+      {name:'Favorites',tab:'favorites', url: '/appdev-attendancetracker/app/home/favorites', icon: star},
     ]
     
     return (
@@ -45,12 +45,12 @@ import Search from './home-tabs/Search';
           </IonTabBar>
         <IonRouterOutlet>
 
-          <Route exact path="/appDev-AttendanceTracker/app/home/feed" render={Feed} />
-          <Route exact path="/appDev-AttendanceTracker/app/home/search" render={Search} />
-          <Route exact path="/appDev-AttendanceTracker/app/home/favorites" render={Favorites} />
+          <Route exact path="/appdev-attendancetracker/app/home/feed" render={Feed} />
+          <Route exact path="/appdev-attendancetracker/app/home/search" render={Search} />
+          <Route exact path="/appdev-attendancetracker/app/home/favorites" render={Favorites} />
 
-          <Route exact path="/appDev-AttendanceTracker/app/home">
-            <Redirect to="/appDev-AttendanceTracker/app/home/feed" />
+          <Route exact path="/appdev-attendancetracker/app/home">
+            <Redirect to="/appdev-attendancetracker/app/home/feed" />
           </Route>
 
         </IonRouterOutlet>

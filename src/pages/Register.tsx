@@ -142,7 +142,7 @@ const Register: React.FC = () => {
           Register
         </IonButton>
         {/* New Button for Sign In */}
-        <IonButton onClick={() => navigation.push('/appDev-AttendanceTracker')} expand="full" fill="clear" className="ion-margin-top">
+        <IonButton onClick={() => navigation.push('/appdev-attendancetracker')} expand="full" fill="clear" className="ion-margin-top">
           Already have an account? Sign in
         </IonButton>
         {/* Verification Modal */}
@@ -174,7 +174,7 @@ const Register: React.FC = () => {
               <p>Your account has been created successfully.</p>
               <p>Please check your email address.</p>
             </IonText>
-            <IonButton routerLink="/appDev-AttendanceTracker" routerDirection="back" color="primary">
+            <IonButton routerLink="/appdev-attendancetracker" routerDirection="back" color="primary">
               Go to Login
             </IonButton>
           </IonContent>

@@ -1,10 +1,9 @@
-
 {
-  "name": "appDev-AttendanceTracker",
+  "name": "appdev-attendancetracker",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://github.com/jaysashgundaya16/appDev-AttendanceTracker.git",
+  "homepage": "https://github.com/jaysashgundaya16/appdev-attendancetracker.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

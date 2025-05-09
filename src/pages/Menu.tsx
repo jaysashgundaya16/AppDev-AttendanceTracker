@@ -24,9 +24,9 @@ import EditProfilePage from './EditProfilePage';
 
 const Menu: React.FC = () => {
   const path = [
-      {name:'Home', url: '/appDev-AttendanceTracker/app/home', icon: homeOutline},
-      {name:'About', url: '/appDev-AttendanceTracker/app/about', icon: rocketOutline},
-      {name:'Profile', url: '/appDev-AttendanceTracker/app/profile', icon: settingsOutline},
+      {name:'Home', url: '/appdev-attendancetracker/app/home', icon: homeOutline},
+      {name:'About', url: '/appdev-attendancetracker/app/about', icon: rocketOutline},
+      {name:'Profile', url: '/appdev-attendancetracker/app/profile', icon: settingsOutline},
   ]
 
   return (
@@ -51,7 +51,7 @@ const Menu: React.FC = () => {
                       ))}
 
                       {/*Logout Button*/}
-                      <IonButton routerLink="/appDev-AttendanceTracker" routerDirection="back" expand="full">
+                      <IonButton routerLink="/appdev-attendancetracker" routerDirection="back" expand="full">
                           <IonIcon icon={logOutOutline} slot="start"> </IonIcon>
                       Logout
                       </IonButton>
@@ -60,14 +60,14 @@ const Menu: React.FC = () => {
               </IonMenu>
               
               <IonRouterOutlet id="main">
-                  <Route exact path="/appDev-AttendanceTracker/app/home" component={Home} />
-                  <Route exact path="/appDev-AttendanceTracker/app/home/details" component={Details} />
-                  <Route exact path="/appDev-AttendanceTracker/app/about" component={About} />
-                  <Route exact path="/appDev-AttendanceTracker/app/profile" component={EditProfilePage} />
+                  <Route exact path="/appdev-attendancetracker/app/home" component={Home} />
+                  <Route exact path="/appdev-attendancetracker/app/home/details" component={Details} />
+                  <Route exact path="/appdev-attendancetracker/app/about" component={About} />
+                  <Route exact path="/appdev-attendancetracker/app/profile" component={EditProfilePage} />
 
 
-                  <Route exact path="/appDev-AttendanceTracker-lab/app">
-                      <Redirect to="/appDev-AttendanceTracker/app/home"/>
+                  <Route exact path="/appdev-attendancetracker-lab/app">
+                      <Redirect to="/appdev-attendancetracker/app/home"/>
                   </Route>
               </IonRouterOutlet>
 
