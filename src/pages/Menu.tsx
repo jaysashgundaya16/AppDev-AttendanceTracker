@@ -66,7 +66,7 @@ const Menu: React.FC = () => {
                   <Route exact path="/appdev-attendancetracker/app/profile" component={EditProfilePage} />
 
 
-                  <Route exact path="/appdev-attendancetracker-lab/app">
+                  <Route exact path="/appdev-attendancetracker/app">
                       <Redirect to="/appdev-attendancetracker/app/home"/>
                   </Route>
               </IonRouterOutlet>
