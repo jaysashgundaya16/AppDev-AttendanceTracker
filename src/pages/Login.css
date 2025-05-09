@@ -1,0 +1,15 @@
+.background-image {
+    background-size: cover; 
+    background-position: center; 
+    
+    height: 100%; 
+    color: white; 
+  }
+  
+  .ion-padding {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+  }
+  ion-content {
+    --background: url('https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?semt=ais_hybrid&w=740') center center / cover;
+  }
