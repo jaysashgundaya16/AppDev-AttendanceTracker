@@ -10,7 +10,7 @@ export default defineConfig({
     react(),
     legacy()
   ],
-  base: "appDev-AttendanceTracker" ,
+  base: "appdev-attendancetracker" ,
   test: {
     globals: true,
     environment: 'jsdom',
