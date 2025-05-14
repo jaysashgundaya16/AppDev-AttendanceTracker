@@ -19,13 +19,14 @@ import { bookOutline, search, star } from 'ionicons/icons';
 import { Route, Redirect } from 'react-router';
 
 import Favorites from './home-tabs/Favorites';
-import Feed from './home-tabs/Feed';
+import Attendance from './home-tabs/Attendance';
 import Search from './home-tabs/Search';
+
   
   const Home: React.FC = () => {
 
     const tabs = [
-      {name:'Feed', tab:'feed',url: '/appdev-attendancetracker/app/home/feed', icon: bookOutline},
+      {name:'Attendance', tab:'attendance',url: '/appdev-attendancetracker/app/home/attendance', icon: bookOutline},
       {name:'Search', tab:'search', url: '/appdev-attendancetracker/app/home/search', icon: search},
       {name:'Favorites',tab:'favorites', url: '/appdev-attendancetracker/app/home/favorites', icon: star},
     ]
@@ -45,7 +46,7 @@ import Search from './home-tabs/Search';
           </IonTabBar>
         <IonRouterOutlet>
 
-          <Route exact path="/appdev-attendancetracker/app/home/feed" render={Feed} />
+          <Route exact path="/appdev-attendancetracker/app/home/attendance" render={Attendance} />
           <Route exact path="/appdev-attendancetracker/app/home/search" render={Search} />
           <Route exact path="/appdev-attendancetracker/app/home/favorites" render={Favorites} />
 
