@@ -17,7 +17,7 @@ const Favorites: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>Jaysash Gundaya.</IonTitle>
+          <IonTitle></IonTitle>
           <IonButtons slot="end">
             <IonButton fill="outline" size="small">Contact</IonButton>
           </IonButtons>
